@@ -39,14 +39,12 @@ namespace Test
 
             
             Console.WriteLine($"Nice! That’s the right number. This is {guessNum}");
-            return;
         }
         static void Main(string[] args)
         {
             int guessNum = Greeting();
             int rightNum = GoRandom();
             LetsGoGambling(guessNum, rightNum);
-            return;
         }
     }
 }
